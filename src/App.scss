@@ -4,9 +4,9 @@
 	text-align: center;
 	justify-content: center;
 	width: 100vw;
-	max-width: 700px;
+	max-width: 600px;
 	height: 100vh;
-	margin: auto;
+	margin: 0 auto;
 	h1 {
 		margin: 20px auto -100px auto;
 	}
@@ -29,6 +29,10 @@
 	color: #000;
 	background-color: #fff;
 	border-radius: 5px;
+	&:hover {
+		background-color: #2c6fd3;
+		color: #fff;
+	}
 }
 .Joke__Box {
 	height: auto;
@@ -41,6 +45,11 @@
 		font-weight: 700;
 		margin: 30px;
 		color: #313131;
+		span {
+			text-transform: capitalize;
+			color: #ee3a34;
+			font-size: xx-large;
+		}
 	}
 	.joke__Area {
 		overflow: hidden;
@@ -62,6 +71,7 @@
 		}
 	}
 	.new__joke {
+		outline: none;
 		border: 1px solid #dc5be7;
 		margin: 10px;
 		color: #3c71e4;
